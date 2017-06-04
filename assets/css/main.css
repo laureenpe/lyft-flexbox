@@ -182,3 +182,87 @@ span:hover {
     height: 426px;
     background-size: 500px 430px;
 }
+
+
+/*FOOTER*/
+
+footer {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    background-color: #333447;
+    font-size: 13px;
+}
+
+.column {
+    float: left;
+    margin: 30px 0px 0px 0px;
+    width: calc((100%-1%)/5);
+}
+
+.column li {
+    display: block;
+    color: white;
+}
+
+.column li a {
+    color: white;
+    text-decoration: none;
+}
+
+.column li a:hover {
+    color: #FF00BF;
+    text-decoration: underline;
+}
+
+.column li img {
+    width: 167px;
+    height: 50px;
+}
+
+.social-media {
+    clear: both;
+    width: 34%;
+    margin: 0 auto;
+}
+
+.social-media a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.social-media a img {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin-left: 65px;
+}
+
+.social-media hr {
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    clear: both;
+}
+
+.legacy {
+    color: white;
+    font-size: 0.9em;
+    width: calc((100%-40%)/1.5);
+}
+
+.legacy li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.legacy li a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.9em;
+}
+
+.legacy li a:hover {
+    color: #FF00BF;
+    text-decoration: underline;
+}
