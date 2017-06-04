@@ -1,0 +1,145 @@
+button:hover {
+    color: #FF00BF;
+}
+
+footer {
+    background-color: #334477;
+}
+
+
+/*
+Titulos Form : #352384
+texto form: #728099
+gradiente morado: #76278f , #2B1E66*/
+
+
+/*NAVBAR*/
+
+.flex-container {
+    display: flex;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+#navigation.flex-container {
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #282042;
+}
+
+#navigation img {
+    width: 70px;
+    margin-right: auto;
+    margin-left: 20px;
+}
+
+#navigation a {
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+button,
+.login,
+.sign-up {
+    background-color: rebeccapurple;
+    border: 1px solid currentColor;
+    border-color: #d8dce6;
+    white-space: nowrap;
+    color: #fff;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: .5rem;
+    padding-top: .5rem;
+    cursor: pointer;
+    font-weight: 300;
+    border-radius: .5rem;
+    font-size: 16px;
+}
+
+button.sign-up {
+    /*display: none;*/
+}
+
+
+/*HEADER*/
+
+header {
+    height: 100vh;
+    background-image: url(https://cdn.lyft.com/brochure/homepage-hero-poster.8ec795d5.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+header .white-box {
+    background-color: white;
+    position: absolute;
+    right: 0;
+    top: 16%;
+    box-sizing: border-box;
+    padding: 40px 60px 50px 40px;
+}
+
+header .white-box h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #352384;
+    font-size: 1.8em;
+}
+
+header .white-box h3 {
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #352384;
+    font-size: 1em;
+}
+
+header .white-box .btn-big {
+    border-radius: 3px;
+    height: 45px;
+    line-height: 45px;
+    color: white;
+}
+
+.btn-big {
+    display: inline-block;
+    background-color: #ff00bf;
+    border-radius: 4px;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 13px;
+    padding: 2px;
+    width: 139px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    overflow: visible;
+    border-style: solid;
+    border-color: transparent;
+}
+
+form input {
+    border-top: 10px;
+    border-right: none;
+    border-left: none;
+    width: 100%;
+    border-color: #352384;
+    color: #bfc7d9;
+    font-size: 17px;
+    font-weight: 200;
+}
+
+.text span {
+    color: #ff00bf;
+    text-decoration: none;
+}
+
+.text {
+    color: #728099;
+}
