@@ -13,7 +13,7 @@
 </head>
 
 <body>
-
+    <!--NAV-BAR-->
     <nav id="navigation" class=" menu flex-container">
         <img src="assets/images/logo-white.png" alt="LOGOx">
         <a href="#" class="text-uppercase">Drive</a>
@@ -23,15 +23,22 @@
         <button type="submit" class="sign-up hide">Sign Up</button>
     </nav>
     <header>
-        <div class="white-box">
+        <div id="formulario" class="white-box">
             <h2>
                 Turn Miles Into Money
             </h2>
             <h3>Sign up to drive lyft</h3>
             <form action="#">
                 <input type="text" placeholder="Phone Number"><br>
+                <div class="hide-form " id="hide-input">
+                    <input type="text" placeholder="First Name" name="" value="">
+                    <input type="text" placeholder="Last Name" name="" value="">
+                    <input type="Email" placeholder="Email" name="" value="">
+                    <input type="text" placeholder="City" name="" value="">
+                    <a href="#">Promo code?</a>
+                    <p class="terminos"><input type="checkbox" name="" value=""> I agree to <a href="#">lyft´s Terms of Service</a></p>
+                </div>
                 <button class="btn-big" type="submit">Become a driver</button>
-
             </form>
             <p class="text">
                 Already applied?
@@ -42,11 +49,10 @@
                 <span> Learn more. </span>
             </p>
         </div>
-        <div class="next"></div>
-        </div>
-    </header>
-    <!--INFORMATION-->
 
+    </header>
+
+    <!--INFORMATION-->
     <section class="information logo">
 
         <div class="ride">
@@ -62,17 +68,25 @@
 
             <h4>Ride with us and you’ll see why 9 out of 10 rides end with five stars.</h4>
         </div>
-
-
-
     </section>
-
-    <footer>
+    <section id="first-video" class="video">
+        <div class="texto left">
+            <p class="parrafos texto-watch">WATCH</p>
+            <h3 class="parrafos">AMPLIFY YOUR RIDE</h3>
+            <p class="parrafos">
+                Lyft’s new emblem, Amp, is the secret to smooth pickups. Lighting up dashboards nationwide, the device makes it easy for passengers and drivers to find each other.
+            </p>
+        </div>
+        <div class="video-height">
+            <iframe class="right ocultar" src="https://www.youtube.com/embed/fLSmUWOYpKw" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </section>
+    <!--FOOTER-->
+    <footer id="services" class="flex-column">
         <ul class="column">
-            <li class="tituloBlanco">DRIVE</li>
-            <li class="tituloBlanco">RIDE</li>
-            <li class="tituloBlanco">LOG IN</li>
-
+            <li>DRIVE</li>
+            <li>RIDE</li>
+            <li>LOG IN</li>
             <li><a href="#">Help</a></li>
             <li><a href="#">Cities</a></li>
             <li><a href="#">Airports</a></li>
@@ -82,14 +96,14 @@
             <li><a href="#">Fare Estimate</a></li>
         </ul>
         <ul class="column">
-            <li class="tituloBlanco">PARTNER</li>
+            <li>PARTNER</li>
             <li><a href="#">Partnerchips</a></li>
             <li><a href="#">Enterprise</a></li>
             <li><a href="#">Ambassadors</a></li>
             <li><a href="#">Developers</a></li>
         </ul>
         <ul class="column">
-            <li class="tituloBlanco">LEARN</li>
+            <li>LEARN</li>
             <li><a href="#">Safety</a></li>
             <li><a href="#">Blog</a></li>
             <li><a href="#">Press</a></li>

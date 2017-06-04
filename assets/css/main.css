@@ -155,9 +155,19 @@ span:hover {
     font-size: 9px;
 }
 
-.next {
-    height: 33rem;
-    background: linear-gradient(transparent, #76278f);
+
+/*FORMULARIO*/
+
+.hide-form {
+    display: none;
+}
+
+#formulario input {
+    margin: 20px 0px 20px 0px;
+    border: 0px;
+    border-bottom: 1px solid black;
+    font-size: 20px;
+    color: #bfc7d9;
 }
 
 
@@ -184,6 +194,68 @@ span:hover {
 }
 
 
+/*SECCION 3*/
+
+#video {
+    display: block;
+    margin: 0;
+}
+
+#first-video {
+    background-color: white;
+}
+
+.texto {
+    display: inline-block;
+    width: 15%;
+    margin-top: 8%;
+    margin-right: 14%;
+    margin-left: 5%;
+}
+
+.texto {
+    justify-content: flex-start;
+}
+
+
+/*
+.right {
+    float: right;
+}*/
+
+.video-height {
+    width: 65%;
+    display: inline-block;
+}
+
+.video-height img {
+    width: 100%;
+}
+
+.video-height iframe {
+    width: 100%;
+    height: 506px;
+}
+
+.texto {
+    margin-top: 25%;
+}
+
+.parrafos {
+    font-size: 17px;
+    width: 145%;
+}
+
+.texto p:first-child {
+    letter-spacing: 0.2em;
+}
+
+.texto h3 {
+    font-size: 25px;
+    letter-spacing: 0.2em;
+}
+
+
 /*FOOTER*/
 
 footer {
@@ -192,6 +264,11 @@ footer {
     margin-left: 0px;
     background-color: #333447;
     font-size: 13px;
+}
+
+#services.flex-column {
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .column {
