@@ -3,5 +3,8 @@ body {
     margin: 0 auto;
     font-size: 16px;
     line-height: 1.71429;
-    background-color: #fff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#76278f), to(#2B1E66))
 }
+
+
+/*  background: -webkit-gradient(linear, left top, left bottom, from(#2B1E66), to(#76278f));*/
