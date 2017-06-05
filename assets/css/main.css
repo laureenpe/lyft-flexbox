@@ -30,13 +30,17 @@ gradiente morado: #76278f , #2B1E66*/
 }
 
 #navigation.flex-container {
+    color: transparent;
     justify-content: flex-end;
     align-items: center;
-    margin-left: -1%;
 }
 
-#navigation img {
-    width: 70px;
+.menu .logo-lyft {
+    background-image: url('../images/logo-white.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
     margin-right: auto;
     margin-left: 20px;
 }
@@ -47,12 +51,49 @@ gradiente morado: #76278f , #2B1E66*/
     color: white;
 }
 
-button,
-.login,
+.white-nav {
+    background-color: #fff;
+}
+
+.white-nav a {
+    color: #000 !important;
+}
+
+.white-nav .login {
+    color: #000 !important;
+}
+
+.white-nav .logo-lyft {
+    background-image: url('../images/logo-pink.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    margin-right: auto;
+    margin-left: 20px;
+}
+
 .sign-up {
     background-color: transparent;
     border: 1px solid currentColor;
-    border-color: #d8dce6;
+    border-color: #FF00BF;
+    white-space: nowrap;
+    color: #FF00BF;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: .5rem;
+    padding-top: .5rem;
+    cursor: pointer;
+    font-weight: 300;
+    border-radius: .5rem;
+    font-size: 14px;
+    margin-left: 16px;
+}
+
+.login {
+    background-color: transparent;
+    border: 1px solid currentColor;
+    border-color: #ccc;
     white-space: nowrap;
     color: #fff;
     padding-left: 1rem;
@@ -62,11 +103,11 @@ button,
     cursor: pointer;
     font-weight: 300;
     border-radius: .5rem;
-    font-size: 16px;
+    font-size: 14px;
     margin-left: 16px;
 }
 
-button.sign-up {
+.hide {
     display: none;
 }
 
@@ -86,7 +127,7 @@ header .white-box {
     background-color: white;
     position: absolute;
     right: 0;
-    top: 16%;
+    top: 13%;
     box-sizing: border-box;
     padding: 40px 60px 50px 40px;
 }
